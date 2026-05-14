@@ -10,6 +10,7 @@
    o Pip is Python's package manager. It usually comes with Python.
 
    o Verify installation: pip --version
+
 3. Install Selenium
 
    o pip install selenium
@@ -30,13 +31,18 @@ You can run the Selenium script in two ways:
 ---------------------------
 
 Step-1 : Open IDLE.
+
 Step-2 : Open AdNabu_QA_Assignment.py.
+
 Step-3 : Press F5 or go to Run → Run Module.
+
 Step-4 : The script will launch the browser and perform the automation steps.
 
 2. Run using Python from Command Prompt
 ----------------------------------------
 
 Step-1 : Open Command Prompt.
+
 Step-2 : Navigate to the project folder.
+
 Step-3 : Run the script using : python AdNabu_QA_Assignment.py
