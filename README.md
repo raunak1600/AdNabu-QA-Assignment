@@ -1,26 +1,33 @@
+*Prerequisites*
+
 1. Install Python
-  
-   Make sure Python above 3.8 or above is installed in your system. Don't Forget to check "Add To Path" checkbox.
-2. Install PIP
-
-   Pip is the Python Package Manager. You will need it to install Selenium.
-
+   o Ensure Python 3.8 or above is installed.
+   o Check "Add Python to PATH" during installation.
+2. Install pip
+   o Pip is Python's package manager. It usually comes with Python.
+   o Verify installation: pip --version
 3. Install Selenium
-
-   Use pip to install the selenium package. Use the below given command to install selenium using CMD.
-
-   Command : pip install selenium
-  
+   o pip install selenium
 4. Download WebDriver
+   o Download the WebDriver for your browser (e.g., ChromeDriver for Chrome, EdgeDriver for Edge).
+   o Make sure it matches your browser version.
+   o Either place it in a folder included in your system PATH or note its path to provide in your script.
 
-   Download the ChromeDriver(or WebDriver for your browswer) that matches your browser version. Place it in a folder
-   included in your system's PATH or note its location to use in your scripts.
+*How to Run the Automation Script*
 
-5. Open IDLE
+You can run the Selenium script in two ways:
 
-   Start IDLE. Add the following automation script in your Python (.py) file.
-   
-9. Run the Program
+1. Run directly using IDLE
+---------------------------
 
-    Press F5 or go to Run-->Run Module. This script will launch the browse and run your test script.
+Step-1 : Open IDLE.
+Step-2 : Open AdNabu_QA_Assignment.py.
+Step-3 : Press F5 or go to Run → Run Module.
+Step-4 : The script will launch the browser and perform the automation steps.
 
+2. Run using Python from Command Prompt
+----------------------------------------
+
+Step-1 : Open Command Prompt.
+Step-2 : Navigate to the project folder.
+Step-3 : Run the script using : python AdNabu_QA_Assignment.py
